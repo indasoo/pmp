@@ -6,9 +6,9 @@ const pluginConf = require("./config/pluginConf");
 module.exports = {
 
   // ↓↓↓↓↓↓↓↓↓根据实际情况自行配置↓↓↓↓↓↓↓↓↓
-  title: '',  // 
+  title: 'pmp',  // 
   description: '',
-  base: '/', 
+  base: '/pmp', 
   // ↑↑↑↑↑↑↑↑↑根据实际情况自行配置↑↑↑↑↑↑↑↑↑
   
   head: headConf,
@@ -19,7 +19,7 @@ module.exports = {
     nav: navConf,
 
     // ↓↓↓↓↓↓↓↓↓根据实际情况自行配置↓↓↓↓↓↓↓↓↓
-    repo: '', 
+    repo: 'indasoo/pmp', 
     // ↑↑↑↑↑↑↑↑↑根据实际情况自行配置↑↑↑↑↑↑↑↑↑
     editLinks: true,
     docsDir: 'docs',

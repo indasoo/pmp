@@ -40,6 +40,11 @@ yarn安装成功后，查看版本命令：yarn -v
 yarn add -D vuepress # npm install -D vuepress
 ```
 
+## 安装项目插件
+```
+yarn add -D vuepress-plugin-auto-sidebar
+```
+
 ## 运行本项目
 ```
 # 运行
